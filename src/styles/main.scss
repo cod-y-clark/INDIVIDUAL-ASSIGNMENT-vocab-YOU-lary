@@ -3,8 +3,35 @@
 
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: rgb(108, 119, 80);
+  color: rgb(9, 9, 9);
   text-align: center;
   margin-top: 100px;
+}
+
+.login-btn {
+  background-color: rgb(111, 116, 109);
+  border: none;
+}
+
+.login-btn:hover {
+  background-color: coral;
+}
+
+.signout-btn {
+    background-color: rgb(111, 116, 109);
+    border: none;
+    position:absolute;
+    bottom:0;
+  }
+
+.signout-btn:hover {
+  background-color: coral;
+}
+
+#store {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 1;
 }
