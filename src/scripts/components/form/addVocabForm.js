@@ -19,7 +19,7 @@ const addVocabForm = (uid, obj = {}) => {
       </div>
       <div class="form-group" id="submit">
       </div>
-      <button type="submit" class="btn btn-primary">Submit Term
+      <button type="submit" class="btn btn-primary">Create Card
       </button>
     </form>
   `;
